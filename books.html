@@ -1,101 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Manga - I Know You</title>
-    <style>
-      body {
-        background-color: #f5f5f5;
-        color: #111;
-        font-family: 'Segoe UI', sans-serif;
-        line-height: 1.7;
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I Know You - Manga</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f8f8f8;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.8;
+      padding: 20px;
+      color: #111;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .manga-img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 1.05em;
+    }
+
+    @media (max-width: 600px) {
+      .container {
         padding: 20px;
-        font-size: 18px; /* Default font size */
       }
 
-      @media (max-width: 768px) {
-        body {
-          font-size: 20px; /* Bigger text for tablets */
-          padding: 16px;
-        }
+      h1 {
+        font-size: 2em;
       }
 
-      @media (max-width: 480px) {
-        body {
-          font-size: 22px; /* Bigger text for phones */
-          padding: 14px;
-        }
+      p {
+        font-size: 1em;
       }
-
-      .story-container {
-        background-color: #fff8f0;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        line-height: 1.6;
-      }
-
-      .story-title {
-        text-align: center;
-        color: #d6336c;
-        font-size: 32px;
-        margin-bottom: 30px;
-      }
-
-      .the-end {
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 30px;
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="story-container">
-      <h2 class="story-title">I Know You 💔</h2>
-
-      <p>Ek baar ka zikr hai, Mumbai ki crowded life mein do log mile — <strong>Amir</strong> aur Meera.</p>
-      <p>College ki library mein pehli nazar padhi thi inki ek dusre par.</p>
-      <p>Amir ek silent, thoughtful ladka tha — Meera ek chirpy aur creative ladki.</p>
-      <p>Unke beech zyada baatein nahi hoti thi, magar aankhon mein ek alag sa connection tha.</p>
-      <p>agar Meera ne chhoti si smile di, toh Amir bhi palak jhapka kar jawab deta tha.</p>
-      <p>Dheere dheere, dosti shuru hui — uss dosti mein khamoshi zyada thi, shor kam.</p>
-      <p>Station par milte, ek hi coffee shop mein baithte, lekin kabhi ek dusre se zyada nahi poocha.</p>
-      <p>Phir ek din Meera ne kaha, “Tum ajeeb ho… par ache ajeeb.”</p>
-      <p>Amir bas muskura diya — uske liye woh kaafi tha.</p>
-      <p>Dono ke beech kuch na kuch tha — shabdon se pare, par dil ke kareeb.</p>
-      <p>College khatam hua, aur ek project ke liye Amir ko Delhi jaana pada.</p>
-      <p>Meera ne bus itna kaha, “Jab wapas aao,toh coffee pe chalna.”</p>
-      <p>Amir gaya… aur fir ek accident hua.</p>
-      <p>Hospital mein aankhein khuli, sab yaad tha — bas Meera ka chehra nahi.</p>
-      <p>Doctors ne bataya, kuch memory erase ho gayi hai.</p>
-      <p>Amir normal ho gaya, par uske dil mein ek khali jagah thi.</p>
-      <p>Usse lagta tha kuch important bhool gaya hai — par kya?</p>
-      <p>Meera ne try kiya contact karna, par Amir kisi Anjali naam ki ladki ke saath reh raha tha.</p>
-      <p>Usne socha, “Shayad uski zindagi mein jagah nahi rahi.”</p>
-      <p>Waqt beeta… kuch saal guzr gaye… sheher badal gaye… log badal gaye.</p>
-      <P>ab meera ko bhi zyada kuch yaad nhi tha.</P>
-      <p>Ek art gallery mein ek painting lagi thi — naam tha "Unfinished Memory".</p>
-      <p>Amir wahan gaya tha sirf timepass ke liye — par us painting ko dekhte hi kuch to toota.</p>
-      <p>Us painting mein ek ladki thi, jo uske dil ko chhoo gayi.</p>
-      <p>Usne poocha, “Ye kisne banayi?” — jawab aaya, “Meera.”</p>
-      <p>Naam suna… kuch to jag gaya andar… ek choti si awaaz: “Tum use jaante ho.”</p>
-      <p>Dusri taraf Meera bhi wahan aayi thi, apni painting ki response dekhne.</p>
-      <p>Ek corner mein khadi thi, jab uski nazar Amir par padhi.</p>
-      <p>Woh ruk gayi… saans lene lagi… Amir samne gaya… aur aankhon mein aankh dali.</p>
-      <p>Dono chup the… samay jaise ruk gaya tha.</p>
-      <p>dono ne ek sath kaha..</p>
-      <p><strong>Amir:</strong> “Shayad mai tumhe janta hoon...”</p>
-      <p><strong>Meera:</strong> “Shayad mai tumhe janti hoon...”</p>
-      <p>Bas wahi pal tha… sab kuch keh diya… bina kahe.</p>
-      <p>Na naam poocha, na purani baatein — sirf ek tasalli thi, ke dil ab shant tha.</p>
-      <p>Shayad yaad nahi tha, par connection ab bhi tha.</p>
-      <p>Kuch rishte yaadon se nahi, rooh se jude hote hain.</p>
-      <p>Wahi rishte… jo waqt, duri, aur yaadein bhi mita nahi sakti.</p>
-      <p>Woh dono alag ho gaye us gallery se — par dono ke chehre par ek muskurahat thi.</p>
-      <p>Ek muskan jo kehti thi… <strong>"I Know You."</strong></p>
-
-      <p class="the-end">✨ THE END ✨</p>
-    </div>
-  </body>
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>I Know You</h1>
+    <img src="book1img1.png" alt="Amir and Meera" class="manga-img" />
+    <p>Ek baar ka zikr hai, Mumbai ki crowded life mein do log mile — Amir aur Meera.</p>
+    <p>College ki library mein pehli nazar padhi thi ek dusre par.</p>
+    <p>Amir ek silent, thoughtful ladka tha — Meera ek chirpy aur creative ladki.</p>
+    <p>Unke beech zyada baatein nahi hoti thi, magar aankhon mein ek alag sa connection tha.</p>
+    <p>Ek din Meera ne chhoti si smile di, Amir ne palak jhapka kar jawab diya.</p>
+    <p>Dheere dheere, dosti shuru hui — uss dosti mein khamoshi zyada thi, shor kam.</p>
+    <p>Station par milte, ek hi coffee shop mein baithte, lekin kabhi ek dusre se zyada nahi poocha.</p>
+    <p>Phir ek din Meera ne kaha, “Tum ajeeb ho… par ache ajeeb.”</p>
+    <p>Amir bas muskura diya — uske liye woh kaafi tha.</p>
+    <p>Dono ke beech kuch na kuch tha — shabdon se pare, par dil ke kareeb.</p>
+    <p>College khatam hua, aur ek project ke liye Amir ko Delhi jaana pada.</p>
+    <p>Meera ne bus itna kaha, “Jab wapas aao, coffee pe chalte hain.”</p>
+    <p>Amir gaya… aur fir ek accident hua.</p>
+    <p>Hospital mein aankhein khuli, sab yaad tha — bas Meera ka chehra nahi.</p>
+    <p>Doctors ne bataya, kuch memory erase ho gayi hai.</p>
+    <p>Amir normal ho gaya, par uske dil mein ek khali jagah thi.</p>
+    <p>Usse lagta tha kuch important bhool gaya hai — par kya?</p>
+    <p>Meera ne try kiya contact karna, par Amir kisi Anjali naam ki ladki ke saath reh raha tha.</p>
+    <p>Usne socha, “Shayad uski zindagi mein jagah nahi rahi.”</p>
+    <p>Waqt beeta… kuch saal guzr gaye… sheher badal gaye… log badal gaye.</p>
+    <p>Ek art gallery mein ek painting lagi thi — naam tha "Unfinished Memory".</p>
+    <p>Amir wahan gaya tha sirf timepass ke liye — par us painting ko dekhte hi kuch to toota.</p>
+    <p>Us painting mein ek ladki thi, jo uske dil ko chhoo gayi.</p>
+    <p>Usne poocha, “Ye kisne banayi?” — jawab aaya, “Meera.”</p>
+    <p>Naam suna… kuch to jag gaya andar… ek choti si awaaz: “Tum use jaante ho.”</p>
+    <p>Dusri taraf Meera bhi wahan aayi thi, apni painting ki response dekhne.</p>
+    <p>Ek corner mein khadi thi, jab uski nazar Amir par padhi.</p>
+    <p>Woh ruk gayi… saans le li… samne gaya… aur aankhon mein aankhon dali.</p>
+    <p>Amir: “Shayad mai tumhe janta hoon...”</p>
+    <p>Meera: “Shayad mai tumhe janti hoon...”</p>
+    <p>Bas wahi pal tha… sab kuch keh diya… bina kehkar.</p>
+    <p>Na naam poocha, na purani baatein — sirf ek tasalli thi, ke dil ab shant tha.</p>
+    <p>Shayad yaad nahi tha, par connection ab bhi tha.</p>
+    <p>Kuch rishte yaadon se nahi, rooh se jude hote hain.</p>
+    <p>Wahi rishte… jo waqt, duri, aur yaadein bhi mita nahi sakti.</p>
+    <p>Woh dono alag ho gaye us gallery se — par dono ke chehre par ek hi muskan thi.</p>
+    <p>Ek muskan jo kehti thi… "I Know You."</p>
+  </div>
+</body>
 </html>
